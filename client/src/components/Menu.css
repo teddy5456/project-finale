@@ -1,0 +1,27 @@
+/* Menu.css */
+
+.menu-container {
+  text-align: center;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-name {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu-image {
+  max-width: 100%;
+  max-height: 100%;
+}
